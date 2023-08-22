@@ -1,0 +1,93 @@
+h1 {
+    color: red;
+    display: contents;
+}
+
+span {
+    display: block;
+}
+
+#ex1 {
+    width: 500px;
+    margin: auto;
+    border: 3px solid green;
+    padding: 20px;
+}
+
+#ex2 {
+    max-width: 500px;
+    margin: auto;
+    border: 3px solid purple;
+    padding: 20px;
+}
+#floatEX {
+    float: right;
+    margin-right: 15px;
+
+}
+
+#clearEx {
+    clear: right;
+}
+
+.div1 {
+    float: left;
+    background-color: red;
+
+}
+
+.div2 {
+    float: left;
+    background-color: green;
+}
+
+.div3 {
+    float: left;
+    background-color: yellow;
+}
+
+.div4 {
+    float: left;
+    background-color: grey;
+}
+
+#PTagTest {
+    margin-bottom: 40px;
+}
+
+#static {
+    position: static;
+    border: 3px solid red;
+}
+#relative {
+    position: relative;
+    border: 3px solid yellow;
+}
+#fixed {
+    position: fixed;
+    border: 3px solid blue;
+    bottom: 0;
+    right: o;
+}
+
+#relativediv {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid green;
+
+}
+#absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid yellow;
+}
+/* media queries always go on at the bottom of the page */
+@media screen and (min-widht: 600px) {
+    h1 {
+        font-size: 100px;
+    }
+}
